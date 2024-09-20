@@ -33,12 +33,9 @@ def get_items():
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        # "http://localhost:5173",
-        # "http://31.129.43.117",
         'http://5.35.90.88',
         'http://silicondesert.tech',
         'https://silicondesert.tech',
-        "https://site-test-deploy1.ru",
     ],
     allow_credentials=True,
     allow_methods=["*"],
